@@ -1,0 +1,33 @@
+#featured{
+    display: flex;
+    color: blue;
+    justify-content: center;
+    width: 100%;
+}
+#casper {
+    display: flex;
+    justify-content: flex-start;
+}
+#casper-wave {
+    display: flex;
+    flex-direction: column;
+}
+.container{
+display: flex;
+flex-wrap: wrap;
+background: white;
+border: 2px solid rgb(10, 9, 9);
+padding: 10px;
+margin: 10px;
+
+}
+.mattress-container {
+    display: flex;
+    background: white;
+    box-sizing: border-box;
+    border:2px solid rgb(10, 9, 9); 
+    padding: 5px;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
