@@ -31,3 +31,26 @@ margin: 10px;
     width: 50%;
     align-items: center;
 }
+.all-products-container{
+    display: flex;
+    box-sizing: border-box;
+    background: white;
+    border: 2px solid rgb(10, 9, 9);
+    padding: 10px;
+    
+    }
+.products-container {
+    display: flex;
+    background: white;
+    box-sizing: border-box;
+    border:2px solid rgb(10, 9, 9); 
+    padding: 5px;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+}
+#all-products {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
